@@ -1,0 +1,1 @@
+package com.example.complaintmanagement.repository; import com.example.complaintmanagement.entity.ComplaintActivity; import org.springframework.data.jpa.repository.JpaRepository; import java.util.*; public interface ComplaintActivityRepository extends JpaRepository<ComplaintActivity,Long>{ List<ComplaintActivity> findByComplaintIdOrderByCreatedAtAsc(Long id); }

@@ -1,0 +1,1 @@
+package com.example.complaintmanagement.mapper; import com.example.complaintmanagement.entity.Category; import com.example.complaintmanagement.dto.CategoryDtos.Response; public class CategoryMapper { public Response toResponse(Category c){return new Response(c.getId(),c.getName(),c.getDescription(),c.isActive());} }

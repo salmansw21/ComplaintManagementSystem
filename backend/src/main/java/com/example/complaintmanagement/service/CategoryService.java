@@ -1,0 +1,1 @@
+package com.example.complaintmanagement.service; import com.example.complaintmanagement.dto.CategoryDtos.*; import java.util.*; public interface CategoryService { List<Response> all(); Response get(Long id); Response create(Request r); Response update(Long id,Request r); void delete(Long id); }

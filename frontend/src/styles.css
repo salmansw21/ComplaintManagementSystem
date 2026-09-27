@@ -1,0 +1,40 @@
+body {
+  background: #f5f7fa;
+  color: #212529;
+}
+.navbar-brand {
+  letter-spacing: 0.4px;
+}
+main {
+  min-height: calc(100vh - 120px);
+}
+footer {
+  background: #000000;
+  color: white;
+}
+.auth-card,
+.form-card {
+  max-width: 520px;
+  margin: 4rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.08);
+}
+.timeline-item {
+  border-left: 3px solid #dee2e6;
+  padding: 0 0 1rem 1rem;
+  margin-bottom: 1rem;
+}
+.card {
+  border: 0;
+}
+.table {
+  background: #fff;
+}
+.badge {
+  text-transform: capitalize;
+}
+.navbar .nav-link.active {
+  font-weight: 600;
+}

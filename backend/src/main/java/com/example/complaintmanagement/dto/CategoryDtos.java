@@ -1,0 +1,1 @@
+package com.example.complaintmanagement.dto; import jakarta.validation.constraints.*; public class CategoryDtos { public record Request(@NotBlank @Size(max=100) String name,@Size(max=500) String description,boolean active){} public record Response(Long id,String name,String description,boolean active){} }

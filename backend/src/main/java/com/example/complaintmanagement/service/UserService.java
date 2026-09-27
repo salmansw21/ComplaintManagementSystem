@@ -1,0 +1,1 @@
+package com.example.complaintmanagement.service; import com.example.complaintmanagement.dto.UserDtos.*; import java.util.*; public interface UserService { List<UserResponse> all(); UserResponse get(Long id); UserResponse create(CreateRequest r); UserResponse update(Long id,UpdateRequest r); void delete(Long id); }

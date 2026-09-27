@@ -1,0 +1,1 @@
+package com.example.complaintmanagement.repository; import com.example.complaintmanagement.entity.Attachment; import org.springframework.data.jpa.repository.JpaRepository; import java.util.*; public interface AttachmentRepository extends JpaRepository<Attachment,Long>{ List<Attachment> findByComplaintIdOrderByUploadedAtDesc(Long id); }
