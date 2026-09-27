@@ -74,4 +74,25 @@ Backend uses controller → service → repository layers, DTOs and mappers, JPA
 - If the database already contains users, the automatic demo seed will not overwrite them.
 
 ## Screenshots
-Add screenshots of login, dashboards, complaint details, user management and category management here when documenting a deployment.
+Screenshots of login, dashboards, complaint details, user management and category management here when documenting a deployment.
+## Screenshots
+
+### Login
+
+![Login](screenshots/login.png)
+
+### Dashboard
+
+![Dashboard](screenshots/AdminDashboard.png)
+
+### Complaint Details
+
+![Complaint Details](screenshots/complaint-details.png)
+
+### User Management
+
+![User Management](screenshots/user-management.png)
+
+### Category Management
+
+![Category Management](screenshots/category-management.png)
