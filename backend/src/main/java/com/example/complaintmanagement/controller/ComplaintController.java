@@ -29,7 +29,7 @@ public class ComplaintController {
 		return s.get(id);
 	}
 
-	@PostMapping("/")
+	@PostMapping
 	public ResponseEntity<Response> create(@Valid @RequestBody CreateRequest r) {
 		return ResponseEntity.status(201).body(s.create(r));
 	}
